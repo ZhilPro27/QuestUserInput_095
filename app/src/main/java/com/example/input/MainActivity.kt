@@ -20,10 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             InputTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    FormDataDiri(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
